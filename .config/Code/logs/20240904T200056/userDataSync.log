@@ -1,0 +1,32 @@
+2024-09-04 20:01:02.117 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-09-04 20:01:02.117 [info] Auto Sync is disabled.
+2024-09-04 20:39:44.906 [info] Sync started.
+2024-09-04 20:39:45.828 [info] Did reset the local sync state.
+2024-09-04 20:39:45.845 [info] Settings: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:45.845 [info] Settings: Last sync data state does not exist.
+2024-09-04 20:39:46.041 [info] Settings: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.042 [info] Settings: Last sync data state does not exist.
+2024-09-04 20:39:46.084 [info] GlobalState: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.084 [info] GlobalState: Last sync data state does not exist.
+2024-09-04 20:39:46.392 [info] Keybindings: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.394 [info] Keybindings: Last sync data state does not exist.
+2024-09-04 20:39:46.616 [info] Snippets: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.617 [info] Snippets: Last sync data state does not exist.
+2024-09-04 20:39:46.808 [info] Tasks: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.809 [info] Tasks: Last sync data state does not exist.
+2024-09-04 20:39:46.994 [info] GlobalState: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:46.995 [info] GlobalState: Last sync data state does not exist.
+2024-09-04 20:39:47.373 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:47.374 [info] Extensions: Last sync data state does not exist.
+2024-09-04 20:39:47.630 [info] Profiles: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:47.630 [info] Profiles: Last sync data state does not exist.
+2024-09-04 20:39:47.824 [info] Profiles: Migrating last sync user data. Resource does not exist.
+2024-09-04 20:39:47.824 [info] Profiles: Last sync data state does not exist.
+2024-09-04 20:39:54.493 [info] Settings: Stopped synchronizing settings.
+2024-09-04 20:39:54.498 [info] Keybindings: Stopped synchronizing keybindings.
+2024-09-04 20:39:54.502 [info] Snippets: Stopped synchronizing snippets.
+2024-09-04 20:39:54.504 [info] Tasks: Stopped synchronizing tasks.
+2024-09-04 20:39:54.509 [info] GlobalState: Stopped synchronizing globalstate.
+2024-09-04 20:39:54.510 [info] Extensions: Stopped synchronizing extensions.
+2024-09-04 20:39:54.514 [info] Profiles: Stopped synchronizing profiles.
+2024-09-04 20:39:54.537 [info] Did reset the local sync state.

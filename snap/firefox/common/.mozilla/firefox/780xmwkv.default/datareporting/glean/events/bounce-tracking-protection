@@ -1,0 +1,2 @@
+{"timestamp":9668038,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","success":"true","bounce_time":"1725355779","glean_timestamp":"1725365253211","site_host":"googleadservices.com"}}
+{"timestamp":9668038,"category":"bounce.tracking.protection","name":"purge_action","extra":{"glean_timestamp":"1725365253211","site_host":"doubleclick.net","success":"true","bounce_time":"1725355779","is_dry_run":"true"}}

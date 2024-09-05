@@ -1,0 +1,83 @@
+{
+   "checksum": "ce50f26d6be8ec3fa03fa395a0ae3344",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13369829600437231",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13366203799294778",
+            "date_last_used": "0",
+            "guid": "a37fd3f7-5b4d-40b4-868e-760c928c1cf2",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "2024 Front-end Cheatsheets | SheCodes",
+            "type": "url",
+            "url": "http://cheatsheets.shecodes.io/#subscribe"
+         }, {
+            "date_added": "13366555878768608",
+            "date_last_used": "0",
+            "guid": "ddb9546c-a524-4498-9fec-72af5e8ce764",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "hiking",
+            "type": "url",
+            "url": "https://emojipedia.org/search?q=hiking"
+         } ],
+         "date_added": "13369829600437240",
+         "date_last_used": "0",
+         "date_modified": "13366555878768608",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13159611921190319",
+            "date_last_used": "0",
+            "guid": "1500c9b4-ae99-4b77-9c57-8c7d51c7497a",
+            "id": "7",
+            "name": "http://live.vodafone.com/ is not available",
+            "type": "url",
+            "url": "http://live.vodafone.com/"
+         }, {
+            "date_added": "13304380155897620",
+            "date_last_used": "0",
+            "guid": "ead5d3dd-d3fb-46b7-9c04-7df651e8506b",
+            "id": "8",
+            "name": "Inbox (1,485) - sashamicheldube@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?ogbl#inbox"
+         }, {
+            "date_added": "13304611116008607",
+            "date_last_used": "0",
+            "guid": "fb35e49c-e392-4bee-ae84-5b3625377ecf",
+            "id": "9",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         } ],
+         "date_added": "13369829600437248",
+         "date_last_used": "0",
+         "date_modified": "13304611116008607",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CpIFCvEECIiBAhLqBCAAkgHkBAqaBAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJ/oY5xTMhBgAR/oY5xTMhBgAiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAnCk/PEMyEGABADGW6i2cBgqZH9IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpSR86xTMhBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmAThbAMyEGABGAThbAMyEGACmzkTnFMyEGADCAndmAvKaIAxIAKhhxa1pLbWQ0emNwVWJhVGxIUk1tVDRnPT1IAxKsAggHEqcCChw4d29TSllHaXdyMGU3RWZwYXduaDZ5b0EzU1E9EqYBWjpBRHF0QVp4WWtZdHRVbzYwWkZFWFRtTjE2cEhQTFQvZU1FTjdHMzBsVmdnUmgxL3NzaDlQYjBtMFdCMEwxMDY1SmNtVmN0YjlNUkFxWmtSNkNsY1lFTy94MGh2dDFSSlNqTkkrRVh4RFcvZFRvZVlnbTFUaytxSUZYcU5TU3BjU2NvN250bzBpWlVybXRPTEp3MlRLaGNSNEdFRU1RK1BBanc9PRgAIAAoADD30ZbJvNH0AjislqCqjCxArJagqowsShwvRUNBdlJwR3o3WlRyUjl0aHZzWStITEtab1U9Wh4iHDZEUmc2YTd3emVPTlAzdks5RHd2SlNWYWhCQT1l8zlN4xKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWndWTlpmZHMxOU9vVkVzMFJNeHJtMGpFWEcydGNWd3dhV1dYMWNVclEwTGg3cmdmSHVLejF4ZTNwcGlJR2x1Mks1REhtMkUYACAAKAAwwqfOp7ymiAM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLrAQgIEuYBChxKZmg0b1E3KytaaWF5YzZoVG1BZkJkQ3ZOdWs9EmZaOkFEcXRBWnlJMG4rS0RhU1dGeE9sbUIwTEs2UXpDSHBGMHhla3hRb3Z1ZWthSjNhK2RLakZieHVTSE5vWVR4ckQzVUg0RFEvRzRNcHQyYVUxYjBNQVlCUkozeHpOdTdkbVFRPT0YACAAKAAw6PWOntSHhAM4gYCQ0acwQIGAkNGnMEocalcwZWo2aEZPT3padmNmZTJFaWJPME4rZUpJPVoeIhxqN1NTZDg2bmhMT283QkQ0bjkvOU9JSFFPTzg9ZZs9hbYS7AEIBhLnAQocRlBzWmhwVVhBbHpWV0NEMCtsc3lKeE4rQWFrPRJmWjpBRHF0QVp5STBuK0tEYVNXRnhPbG1CMExLNlF6NkJ5UFVGSTVrRDdkeXdkREdNeitBN1RqVnhxR3hvZHhKWU5NVmpuSkhjYnZmRVpZRStrS2thUm8zT251UTZWUnJ4cEZYdz09GAAgACgAMMWriLWYx4cDOPD66KCPMkDw+uigjzJKHGZacjV2Zy9SMVNmcE8zL25HSVRJUDJkdzJncz1aHyIds2JxT1FKWWVWY3NQcVEvS2ZrQTM0TFlzN09MST1lAAAAABLrAQgFEuYBChxjekpZQkdDSGdUakovcisvZEd0eERFNmk5WVk9EmZaOkFEcXRBWnlJMG4rS0RhU1dGeE9sbUIwTEs2UXp3ekt6QklUN3JlYjB5MHN3bnBybGVZai9MUXNaZlBtU0Z4eElTVDk2b01GcXg0TFR2a3pOZHZvcDZza0thbGJFMi8rbmR3PT0YACAAKAAwl9qk6fi8hwM4/933+I0yQP/d9/iNMkocVkhOSUN2aktvTFhDd2tpRWs0UkVvZlRYWVlVPVoeIhxmUXFWTEdaV2dVUkwzUW1Vem9mVHU2dGQ0cTg9ZbPizzoSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp4aTFNKzNocGowN0hXNExvYU5ESVFvYzhmRkhKeEpIVnZvNDB1M0FyL3NnbkxIY216VVgrNGVGRTdYRVJYbEtSMmNLbnlMbGlFQ09tRjc2VTlZRVVHNmllOHdKUT09GAAgACgAMMKnzqe8pogDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAS7AEICRLnAQocZ1hVQmE4cUxjbE9kTlNaazBOcWxpRERhaTNjPRJmWjpBRHF0QVp5STBuK0tEYVNXRnhPbG1CMExLNlF6UUNFc1cveG1oVjVUaFNYckV3bTRxNTBYLzZWa2FCZUhNbFJ3aHlXVFRPSVBFbHFVZWVSTzdBME1zU0lsNk1jbmRHdnJrdz09GAAgACgAMNPYw5vazIcDOOnXoL+oMEDp16C/qDBKHDBabVBKZWl4NkkyN1NCVjFlcXplRCtxTzZxbz1aHyIdtWJ4RXIxMm1naXdIY2VqSFExTnpGcDI4NzN4OD1lUK7pIxLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWndBVkYxVlNxa2M0ZTVocVBaZ3FOa0lNZXdQNjVIcE51NTBpRTRSN2pGQis2K2l6Y1psQ0hWbEx5aU5wNHM3QUxrQXJVVDFmbWg4RXBTaE5rMndCb3N6K0FsTzl3PT0YACAAKAAwwqfOp7ymiAM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAADABOAA=",
+   "version": 1
+}

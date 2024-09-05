@@ -1,0 +1,58 @@
+2024-09-03 16:35:36.664 [info] Getting Manifest... dbaeumer.vscode-eslint
+2024-09-03 16:35:36.665 [info] Getting Manifest... firsttris.vscode-jest-runner
+2024-09-03 16:35:36.666 [info] Getting Manifest... nrwl.angular-console
+2024-09-03 16:35:36.667 [info] Getting Manifest... ms-playwright.playwright
+2024-09-03 16:35:36.668 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2024-09-03 16:35:36.770 [info] Installing extension: dbaeumer.vscode-eslint {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sasham/.vscode/extensions/extensions.json","path":"/home/sasham/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-03 16:35:36.770 [info] Installing extension: firsttris.vscode-jest-runner {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sasham/.vscode/extensions/extensions.json","path":"/home/sasham/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-03 16:35:36.771 [info] Installing extension: nrwl.angular-console {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sasham/.vscode/extensions/extensions.json","path":"/home/sasham/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-03 16:35:36.772 [info] Installing extension: ms-playwright.playwright {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sasham/.vscode/extensions/extensions.json","path":"/home/sasham/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-03 16:35:36.772 [info] Installing extension: bradlc.vscode-tailwindcss {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sasham/.vscode/extensions/extensions.json","path":"/home/sasham/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-03 16:35:46.052 [info] Extension signature verification result for bradlc.vscode-tailwindcss: Success. Executed: true. Duration: 6980ms.
+2024-09-03 16:35:47.491 [info] Extracted extension to file:///home/sasham/.vscode/extensions/bradlc.vscode-tailwindcss-0.12.9: bradlc.vscode-tailwindcss
+2024-09-03 16:35:47.530 [info] Renamed to /home/sasham/.vscode/extensions/bradlc.vscode-tailwindcss-0.12.9
+2024-09-03 16:35:47.793 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-09-03 16:35:48.631 [info] Extension signature verification result for ms-playwright.playwright: Success. Executed: true. Duration: 9441ms.
+2024-09-03 16:35:49.358 [info] Extension signature verification result for firsttris.vscode-jest-runner: Success. Executed: true. Duration: 7599ms.
+2024-09-03 16:35:49.615 [info] Extracted extension to file:///home/sasham/.vscode/extensions/ms-playwright.playwright-1.1.7: ms-playwright.playwright
+2024-09-03 16:35:49.645 [info] Renamed to /home/sasham/.vscode/extensions/ms-playwright.playwright-1.1.7
+2024-09-03 16:35:49.802 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-09-03 16:35:50.706 [info] Extension signature verification result for dbaeumer.vscode-eslint: Success. Executed: true. Duration: 11492ms.
+2024-09-03 16:35:50.910 [info] Extracted extension to file:///home/sasham/.vscode/extensions/dbaeumer.vscode-eslint-3.0.10: dbaeumer.vscode-eslint
+2024-09-03 16:35:50.929 [info] Renamed to /home/sasham/.vscode/extensions/dbaeumer.vscode-eslint-3.0.10
+2024-09-03 16:35:51.038 [info] Extracted extension to file:///home/sasham/.vscode/extensions/firsttris.vscode-jest-runner-0.4.73: firsttris.vscode-jest-runner
+2024-09-03 16:35:51.046 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-09-03 16:35:51.053 [info] Renamed to /home/sasham/.vscode/extensions/firsttris.vscode-jest-runner-0.4.73
+2024-09-03 16:35:52.650 [info] Extension signature verification result for nrwl.angular-console: Success. Executed: true. Duration: 7429ms.
+2024-09-03 16:35:57.647 [info] Extracted extension to file:///home/sasham/.vscode/extensions/nrwl.angular-console-18.26.0: nrwl.angular-console
+2024-09-03 16:35:57.666 [info] Renamed to /home/sasham/.vscode/extensions/nrwl.angular-console-18.26.0
+2024-09-03 16:35:57.738 [info] Extension installed successfully: bradlc.vscode-tailwindcss vscode-userdata:/home/sasham/.vscode/extensions/extensions.json
+2024-09-03 16:35:57.739 [info] Extension installed successfully: ms-playwright.playwright vscode-userdata:/home/sasham/.vscode/extensions/extensions.json
+2024-09-03 16:35:57.739 [info] Extension installed successfully: dbaeumer.vscode-eslint vscode-userdata:/home/sasham/.vscode/extensions/extensions.json
+2024-09-03 16:35:57.740 [info] Extension installed successfully: firsttris.vscode-jest-runner vscode-userdata:/home/sasham/.vscode/extensions/extensions.json
+2024-09-03 16:35:57.741 [info] Extension installed successfully: nrwl.angular-console vscode-userdata:/home/sasham/.vscode/extensions/extensions.json
+2024-09-03 16:35:57.789 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sasham/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

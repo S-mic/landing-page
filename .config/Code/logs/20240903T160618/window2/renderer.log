@@ -1,0 +1,20 @@
+2024-09-03 16:38:15.857 [info] Started local extension host with pid 8774.
+2024-09-03 16:38:21.183 [info] [perf] Render performance baseline is 441ms
+2024-09-03 16:38:32.151 [error] [Extension Host] (node:8774) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-09-03 16:38:43.260 [info] Started local extension host with pid 8878.
+2024-09-03 16:38:49.661 [info] [perf] Render performance baseline is 314ms
+2024-09-03 16:39:21.070 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/sasham/Projects/mmf-website)
+2024-09-03 16:39:21.072 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-09-03 16:39:22.115 [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-09-03 16:39:22.120 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/snap/code/167/usr/share/code/resources/app/out/bootstrap-fork.js:1:2146)
+	at process.emit (node:events:519:28)
+2024-09-03 16:39:23.119 [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-09-03 16:41:10.471 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

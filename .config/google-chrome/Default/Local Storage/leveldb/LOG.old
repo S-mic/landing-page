@@ -1,0 +1,6 @@
+2024/09/05-10:06:35.045 5 Reusing MANIFEST /home/sasham/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/05-10:06:35.056 5 Recovering log #29
+2024/09/05-10:06:35.063 5 Reusing old log /home/sasham/.config/google-chrome/Default/Local Storage/leveldb/000029.log 
+2024/09/05-10:12:20.983 4 Level-0 table #33: started
+2024/09/05-10:12:20.996 4 Level-0 table #33: 48428 bytes OK
+2024/09/05-10:12:21.010 4 Delete type=0 #29

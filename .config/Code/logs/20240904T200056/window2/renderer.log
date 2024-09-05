@@ -1,0 +1,11 @@
+2024-09-04 20:01:13.630 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 42ms.
+2024-09-04 20:01:13.752 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2024-09-04 20:01:13.905 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 28ms.
+2024-09-04 20:01:17.063 [info] Started local extension host with pid 17331.
+2024-09-04 20:01:32.717 [error] Unknown error while installing extension bradlc.vscode-tailwindcss: Unknown: Unknown error while installing extension bradlc.vscode-tailwindcss
+    at z.installFromGallery (/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:61675)
+2024-09-04 20:01:33.089 [info] [perf] Render performance baseline is 96ms
+2024-09-04 20:34:03.580 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow
+2024-09-04 20:35:01.892 [info] Started local extension host with pid 18329.
+2024-09-04 20:39:44.891 [info] Settings Sync: Updating due to change in sessions
+2024-09-04 20:39:44.894 [info] Settings Sync: Updated current session 4fe88f1a6af71812

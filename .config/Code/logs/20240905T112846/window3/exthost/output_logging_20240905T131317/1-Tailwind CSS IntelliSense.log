@@ -1,0 +1,27 @@
+Locating server…
+Booting server...
+Checking if /home/sasham/Projects/pacman-game/src/App.css may be Tailwind-related…
+Checking if /home/sasham/Projects/pacman-game/src/index.css may be Tailwind-related…
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Info  - 1:18:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/pacman-game/src/App.css',
+  normalPath: '/home/sasham/Projects/pacman-game/src/App.css'
+}
+[Global] Initialized 0 projects
+[Info  - 1:19:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/pacman-game/src/index.js',
+  normalPath: '/home/sasham/Projects/pacman-game/src/index.js'
+}
+[Info  - 1:19:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/pacman-game/src/index.js',
+  normalPath: '/home/sasham/Projects/pacman-game/src/index.js'
+}
+[Info  - 1:19:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/pacman-game/src/index.js',
+  normalPath: '/home/sasham/Projects/pacman-game/src/index.js'
+}

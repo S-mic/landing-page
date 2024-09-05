@@ -1,0 +1,33 @@
+2024-09-04 20:01:13.447 [info] [main] Log level: Info
+2024-09-04 20:01:13.447 [info] [main] Validating found git in: "git"
+2024-09-04 20:01:13.447 [info] [main] Using git "2.43.0" from "git"
+2024-09-04 20:01:13.447 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-04 20:01:13.447 [info] > git rev-parse --show-toplevel [75ms]
+2024-09-04 20:01:13.448 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2024-09-04 20:01:13.448 [info] [Model][openRepository] Opened repository: /home/sasham/Projects/web-apps
+2024-09-04 20:01:13.461 [info] > git rev-parse --show-toplevel [130ms]
+2024-09-04 20:01:13.468 [info] > git config --get commit.template [188ms]
+2024-09-04 20:01:15.600 [info] > git rev-parse --show-toplevel [222ms]
+2024-09-04 20:01:15.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [144ms]
+2024-09-04 20:01:15.843 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/Projects/web-apps/.git/refs/remotes/origin/main'
+2024-09-04 20:01:15.858 [info] > git rev-parse --show-toplevel [140ms]
+2024-09-04 20:01:16.180 [info] > git rev-parse refs/remotes/origin/main [338ms]
+2024-09-04 20:01:16.391 [info] > git check-ignore -v -z --stdin [62ms]
+2024-09-04 20:01:16.420 [info] > git rev-parse --show-toplevel [250ms]
+2024-09-04 20:01:16.525 [info] > git rev-parse --show-toplevel [26ms]
+2024-09-04 20:01:16.578 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-04 20:01:20.013 [info] > git status -z -uall [3771ms]
+2024-09-04 20:01:20.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [501ms]
+2024-09-04 20:01:20.862 [info] > git config --local branch.main.vscode-merge-base [60ms]
+2024-09-04 20:01:21.029 [info] > git config --get commit.template [290ms]
+2024-09-04 20:01:21.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [298ms]
+2024-09-04 20:01:21.883 [info] > git merge-base refs/heads/main refs/remotes/origin/main [424ms]
+2024-09-04 20:01:22.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [880ms]
+2024-09-04 20:01:22.485 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/Projects/web-apps/.git/refs/remotes/origin/main'
+2024-09-04 20:01:22.741 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [647ms]
+2024-09-04 20:01:23.006 [info] > git diff --name-status -z --diff-filter=ADMR 8d6c0adb631808d176a74b6425807b225dddfbc1...refs/remotes/origin/main [237ms]
+2024-09-04 20:01:23.025 [info] > git rev-parse refs/remotes/origin/main [539ms]
+2024-09-04 20:01:23.759 [info] > git status -z -uall [662ms]
+2024-09-04 20:01:23.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [160ms]
+2024-09-04 20:01:24.061 [info] > git config --local branch.main.vscode-merge-base [39ms]
+2024-09-04 20:01:24.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [233ms]

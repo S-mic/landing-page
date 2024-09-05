@@ -1,0 +1,17 @@
+2024/09/03-16:42:18.887 23d0 Reusing MANIFEST /home/sasham/.config/google-chrome/Profile 3/IndexedDB/https_www.apps.disneyplus.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/03-16:42:18.887 23d0 Recovering log #4
+2024/09/03-16:42:18.888 23d0 Reusing old log /home/sasham/.config/google-chrome/Profile 3/IndexedDB/https_www.apps.disneyplus.com_0.indexeddb.leveldb/000004.log 
+2024/09/03-16:42:19.004 23d1 Level-0 table #8: started
+2024/09/03-16:42:19.011 23d1 Level-0 table #8: 7692 bytes OK
+2024/09/03-16:42:19.019 23d1 Delete type=0 #4
+2024/09/03-16:42:19.020 23d0 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/03-20:19:47.052 23cf Level-0 table #10: started
+2024/09/03-20:19:47.057 23cf Level-0 table #10: 2085 bytes OK
+2024/09/03-20:19:47.063 23cf Delete type=0 #7
+2024/09/03-20:19:47.067 23cf Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 411 : 1
+2024/09/03-20:19:47.067 23cf Compacting 1@0 + 1@1 files
+2024/09/03-20:19:47.073 23cf Generated table #11@0: 177 keys, 3089 bytes
+2024/09/03-20:19:47.074 23cf Compacted 1@0 + 1@1 files => 3089 bytes
+2024/09/03-20:19:47.084 23cf compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/03-20:19:47.091 23cf Delete type=2 #10
+2024/09/03-20:19:47.097 23dc Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 411 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

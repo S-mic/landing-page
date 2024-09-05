@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/sasham/Downloads/google-chrome-stable_current_amd64.deb" added="2024-09-03T09:31:28.250098Z" modified="2024-09-03T09:33:19.824871Z" visited="2024-09-03T09:31:28.250099Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2024-09-03T09:33:19.824849Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/code_1.92.2-1723660989_amd64.deb" added="2024-09-03T10:01:29.716521Z" modified="2024-09-03T10:03:41.280417Z" visited="2024-09-03T10:01:29.716522Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus-autorun-software %u&apos;" modified="2024-09-03T10:03:41.280394Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/Unconfirmed%20652422.crdownload" added="2024-09-03T10:04:39.037474Z" modified="2024-09-03T10:04:39.037493Z" visited="2024-09-03T10:04:39.037476Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-partial-download"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus-autorun-software %u&apos;" modified="2024-09-03T10:04:39.037482Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham" added="2024-09-03T12:03:24.678475Z" modified="2024-09-03T12:03:24.688867Z" visited="2024-09-03T12:03:24.678476Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.code" exec="&apos;gio open %u&apos;" modified="2024-09-03T12:03:24.678477Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-03T12:03:24.688862Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Projects" added="2024-09-03T12:03:45.096955Z" modified="2024-09-05T11:12:05.251499Z" visited="2024-09-03T12:03:45.096957Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-09-03T12:03:45.096959Z" count="1"/>
+          <bookmark:application name="snap.code" exec="&apos;gio open %u&apos;" modified="2024-09-05T09:49:43.686387Z" count="4"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T11:12:05.251496Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Projects/web-apps" added="2024-09-03T12:04:12.327782Z" modified="2024-09-03T12:04:59.476135Z" visited="2024-09-03T12:04:12.327783Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/code_code.desktop /snap/bin/code --force-user-env %F&apos;" modified="2024-09-03T12:04:12.327786Z" count="1"/>
+          <bookmark:application name="snap.code" exec="&apos;gio open %u&apos;" modified="2024-09-03T12:04:59.469136Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-03T12:04:59.476131Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/index.html" added="2024-09-04T18:01:56.012060Z" modified="2024-09-04T18:01:56.253361Z" visited="2024-09-04T18:01:56.012062Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-04T18:01:56.012069Z" count="1"/>
+          <bookmark:application name="snap.code" exec="&apos;gio open %u&apos;" modified="2024-09-04T18:01:56.253354Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/vodafone541colours.jpeg" added="2024-09-05T10:28:46.577303Z" modified="2024-09-05T10:33:36.315005Z" visited="2024-09-05T10:28:46.577306Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:33:36.315002Z" count="2"/>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:33:36.299242Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/Vodafone-541-This-model-is-the-previous-generation-of-touch-screen-mobile-phone-The.png" added="2024-09-05T10:32:56.960162Z" modified="2024-09-05T10:32:57.211717Z" visited="2024-09-05T10:32:56.960164Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:32:56.960172Z" count="1"/>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:32:57.211709Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/Vodafone-543-front-angle-g2-1.png" added="2024-09-05T10:33:27.300094Z" modified="2024-09-05T10:33:52.143841Z" visited="2024-09-05T10:33:27.300095Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:33:52.143835Z" count="2"/>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:33:52.126195Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/Vodafone-541-This-model-is-the-previous-generation-of-touch-screen-mobile-phone-The.jpeg" added="2024-09-05T10:35:01.120282Z" modified="2024-09-05T10:35:01.137739Z" visited="2024-09-05T10:35:01.120284Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:35:01.120289Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:35:01.137733Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/Vodafone-543-front-angle-g2-1.jpeg" added="2024-09-05T10:35:14.796829Z" modified="2024-09-05T10:35:14.814416Z" visited="2024-09-05T10:35:14.796831Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:35:14.796833Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:35:14.814407Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Downloads/vodafone-543.jpeg" added="2024-09-05T10:36:26.344691Z" modified="2024-09-05T10:37:48.629329Z" visited="2024-09-05T10:36:26.344694Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-05T10:37:48.629320Z" count="2"/>
+          <bookmark:application name="google-chrome" exec="&apos;gio open %u&apos;" modified="2024-09-05T10:37:48.614902Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/sasham/Projects/pacman-game" added="2024-09-05T11:13:15.188934Z" modified="2024-09-05T11:13:15.188941Z" visited="2024-09-05T11:13:15.188936Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/code_code.desktop /snap/bin/code --force-user-env %F&apos;" modified="2024-09-05T11:13:15.188938Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

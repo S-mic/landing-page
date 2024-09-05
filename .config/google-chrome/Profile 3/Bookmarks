@@ -1,0 +1,70 @@
+{
+   "checksum": "186efb762d82da2d11093b62c50beb99",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13369830265505358",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13353073457586956",
+            "date_last_used": "0",
+            "guid": "eb0c4a8f-6682-4d99-8dc0-a0560a172727",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to use Array.map to render a list of items in React",
+            "type": "url",
+            "url": "https://scrimba.com/articles/react-list-array-with-map-function/"
+         }, {
+            "date_added": "13357918969244001",
+            "date_last_used": "0",
+            "guid": "cb7f1cb0-ea29-4fb8-a2ef-ad609b82db58",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Docs | Next.js",
+            "type": "url",
+            "url": "https://nextjs.org/docs"
+         }, {
+            "date_added": "13362836055071291",
+            "date_last_used": "0",
+            "guid": "11b2b9fe-95e4-4f08-9652-1357d16a7f65",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Document 3.docx",
+            "type": "url",
+            "url": "https://ebkmaboagmail-my.sharepoint.com/:w:/r/personal/sasha_mybusinessapp_co_za/_layouts/15/Doc.aspx?sourcedoc=%7B468B9CEE-433D-4AB1-97FB-2714A8DDFAC6%7D&file=Document%203.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=sasha%40mybusinessapp.co.za&ct=1718358374057&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=f41a070d-18bd-45f0-bed4-46c57a2cbd3f&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=6d9f41a8-0d93-45ab-b730-b2d5d7421978"
+         } ],
+         "date_added": "13369830265505368",
+         "date_last_used": "0",
+         "date_modified": "13362836055071291",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13369830265505375",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CuEBCsABCIiBAhK5ASAAkgGzAQpqCg5jaHJvbWVfc3luY19ibRIFNTEhYm0aEgncplzuMyEGABHcplzuMyEGACI0CbgZRu4zIQYAEAMZGxOfiLtiW88gASocNTEhYm0vZmQ6OTE2MzcyMzU1OTQ2ODg5MzE2MSmvtlzuMyEGAApFChZhbm5vdGF0aW9uX2Nocm9tZV9zeW5jEgU1MSFiZBoSCQDfNukzIQYAEQDfNukzIQYAKeCwXO4zIQYAMIC+28m+pogDEgAqGG1EOG9pVUJzTW42VWV2dGdWZitKM2c9PUgDEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFad2VMaTEvaldGNEl5UDJ2ZVE1aEJRSnpTTUp1MVp2TGNKTThVSVIzd256VFlMc2M0NlV1T3BxeVkxRnRtUExJaVgwNmdHMBgAIAAoADClmvXi/ISEAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEuwBCAcS5wEKHDFQbjBrNGtpMjNjeHk5akhjSmpPb3V1Nmgzaz0SZlo6QURxdEFaeWdnWEdQcmR3ZUZ0OHRRNDBvOXZRenFvVXIxakp2cTdnL3UxcVBXc1B3d2lnekh4Q3RLK1pNVXU0Tmc1cXVuQWVwWVBRQmNiZFRXaVRkbVFXK0c0d1NKNkIyWGc9PRgAIAAoADCFyfb+9tqGAzif+IizgTJAn/iIs4EyShxjL0dhVnMvcHFXWTE2SGdoUUVScFM5SjhVcTQ9Wh8iHawzclV6RTAzOHIycGxmdjVhZlhRMFZHZTRCN2s9ZcHLpcoSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp6ZmliZmJsNzdRcUFhdkxKTTFlaFFXNzcwOGRmNDUyVU0rV1Q5NzBNeTJTOTVmd29zTWYzQWQxa3lvamhFZGJScmlJVXZHQ0ozQ0JFcGI4ZnNVTURkSlpUN1JZQT09GAAgACgAMKWa9eL8hIQDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS6wEIBRLmAQocQWMrN3lobWdOdXozbE90ZkdtMDFhem8rNFpFPRJmWjpBRHF0QVp5Z2dYR1ByZHdlRnQ4dFE0MG85dlF6andZUnkzTSs3ZC9hTG5VSTcyc0dqY2J5Vm1iYWNhTzh1YVZDMDZnalowelBmRHlVc2gxdEJQZ1hWWkNvWFlINSthSjYrUT09GAAgACgAMI6O0r3mvoQDOLOj84PdMUCzo/OD3TFKHEZCYTJUdUVtQ09EQ2ROQk0rakRMWXBSRHE3az1aHiIcMjRDMUcwRWt5N2FHYVM4NW56VndtWXl4TWZNPWXYZGTzEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeDRESmgvdEtBUVQ5QkVXVWEvaXc0OW5rVWZwZm1wcmhvWExZSjZ5QUhJeXIyMkprcFV5WVV5dk1NVjRCdG1DQlpnRjJpZ1ZWeSt1anIxSXBTSXFRWGxDZFUyMlE9PRgAIAAoADClmvXi/ISEAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEusBCAYS5gEKHC9zeXU3SmFsa2NTbE10SjdFMDFpZ29qL2MwMD0SZlo6QURxdEFaeWdnWEdQcmR3ZUZ0OHRRNDBvOXZRenBsTTBKbEdxWnJ5ZTUvWFBHOWdyd2NJdTRQZTVMdDZNQlNuUnZBVlovK0NnNm9Pc3NHa2hEZ3JLRmthZGhVODJXRHY4K0E9PRgAIAAoADDr3dm16cuFAzid67WK7zFAneu1iu8xShxrSlNGc1BiMHNCL21tRVJEd1RvL01WMmdqSmc9Wh4iHFhuczhnclhwNnM1WW1PNGJNL1ZacnhEenNaRT1lGIwQCDABOAA=",
+   "version": 1
+}

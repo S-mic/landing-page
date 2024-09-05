@@ -1,0 +1,5 @@
+2024/09/03-21:51:03.160 b12 Reusing MANIFEST /home/sasham/.config/google-chrome/Profile 3/IndexedDB/https_www.apps.disneyplus.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/03-21:51:03.161 b12 Recovering log #9
+2024/09/03-21:51:03.162 b12 Reusing old log /home/sasham/.config/google-chrome/Profile 3/IndexedDB/https_www.apps.disneyplus.com_0.indexeddb.leveldb/000009.log 
+2024/09/03-21:51:03.163 b12 Delete type=2 #8
+2024/09/03-21:51:03.774 b12 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,70 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "Latitude E7240",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "A08"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0a16"
+    }
+  ],
+  "RAM": 8,
+  "Disks": [
+    256.1
+  ],
+  "Partitions": [
+    198.1,
+    1.1
+  ],
+  "Screens": [
+    {
+      "Size": "280mmx160mm",
+      "Resolution": "1366x768",
+      "Frequency": "59.80"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Africa/Johannesburg",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04.1 LTS",
+    "Stages": {
+      "3": "locale",
+      "17": "accessibility",
+      "25": "keyboard",
+      "30": "network",
+      "81": "tryOrInstall",
+      "87": "autoinstall",
+      "97": "sourceSelection",
+      "105": "codecsAndDrivers",
+      "140": "storage",
+      "184": "identity",
+      "227": "timezone",
+      "266": "confirm",
+      "270": "install",
+      "1232": "done"
+    },
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "PartitionMethod": "resize_use_free",
+    "UseActiveDirectory": false
+  }
+}

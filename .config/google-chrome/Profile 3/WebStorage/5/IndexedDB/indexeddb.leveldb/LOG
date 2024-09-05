@@ -1,0 +1,6 @@
+2024/09/03-20:20:38.211 23cf Creating DB /home/sasham/.config/google-chrome/Profile 3/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
+2024/09/03-20:20:38.225 23cf Reusing MANIFEST /home/sasham/.config/google-chrome/Profile 3/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/09/03-20:21:01.058 23d0 Level-0 table #5: started
+2024/09/03-20:21:01.066 23d0 Level-0 table #5: 9439 bytes OK
+2024/09/03-20:21:01.074 23d0 Delete type=0 #3
+2024/09/03-20:21:01.075 23d0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

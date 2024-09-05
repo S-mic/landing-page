@@ -1,0 +1,138 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=storeToken)(B9=gloda-id)(BA=gloda-dirty)(BB=junkscore)(BC=keywords)
+  (BD=columnStates)(BE=sortType)(BF=sortOrder)(C0=viewFlags)(C1=viewType)
+  (C2=MRUTime)(C3=sortColumns)(C4=customSortCol)(C5=imageSize)
+  (C6=sender_name)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)
+  (8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=highestModSeq)
+  (B0=imapFlags)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=folderName)
+  (B7=dobayes.mailnews@mozilla.org#junk)>
+<(8F=4c)(8C=6677eeed)(81=0)(80=1)>
+[1:m(^9B=4c)(^8F=4c)(^91^8C)(^90=0)(^92=1)]
+<(98=4d)(94=667a4655)>[2:m(^9B=4d)(^8F=4d)(^91^94)(^90=0)(^92=1)]
+<(9D=4e)(9B=667091bf)>[3:m(^9B=4e)(^8F=4e)(^91^9B)(^90=0)(^92=1)]
+<(A2=4f)(A0=66708619)>[4:m(^9B=4f)(^8F=4f)(^91^A0)(^90=0)(^92=1)]
+<(A7=50)(A5=6679a18b)>[5:m(^9B=50)(^8F=50)(^91^A5)(^90=0)(^92=1)]
+
+<(97=10000001)(91=sasha michell <sashamicheldube@gmail.com>)(92
+    =sasha@mybusinessapp.co.za)(86=)(93
+    =CAJQZyKG0Ng7yigqpsE7-9uoD8pxj+8=NMt9uJV=cRV-BXesTxg@mail.gmail.com)
+  (96=b1d62b)(90=ffffffff)(B9=498217)(BA=79a29)(BE
+    =0|sasha michell <sashamicheldube@gmail.com>)>
+{4D:^80 {(k^97:c)(s=9)2:m } [4D(^88^97)(^82^91)(^85^92)(^81=)(^83^93)(^84=)
+    (^B4^94)(^86^94)(^89=1)(^87^96)(^9A^90)(^8E=4d)(^B5=0)(^B8^B9)(^9C^BA)
+    (^C6^BE)]}
+
+<(AE=81)(9A
+    =CAJQZyKHAcSuvHjX3tjiA=5XbQyJ_yGYn2ZgDP4FZ4O1OAZ0ufQ@mail.gmail.com)
+  (9C=1666)(AC=7266)(AD=1c62)(AF=1699)(B0=65)>
+{4E:^80 {(k^97:c)(s=9)3:m } [4E(^88=81)(^82^91)(^85^92)(^81=)(^83^9A)(^84=)
+    (^B4^9B)(^86^9B)(^89=1)(^87^9C)(^9A^90)(^8E=4e)(^B5=0)(^B8^AC)(^9C^AD)
+    (^9D^AF)(^8B=65)(^C6^BE)]}
+
+<(A9=93)(87=Rhulani Ndhlovu <rhulani.ndhlovu1995@gmail.com>)(88
+    =Sasha M <sasha@mybusinessapp.co.za>)(8A
+    =CACnev8jR9TtbkS3N1Gf=pzC6HzpkCn0VXMHy7q4Z0W4ptJrK6w@mail.gmail.com)
+  (8B=<81896860-032a-466e-8cfb-1813e536d99d@mybusinessapp.co.za>)(8D=1c26)
+  (AA=1c59)(AB=7c)(BF=0|Rhulani Ndhlovu <rhulani.ndhlovu1995@gmail.com>)
+  (C0=14c)(9F
+    =CAJQZyKHEi4p_yJHD5NiOLHmS4Jew18tdPFmm6oDFYZg5odsx9Q@mail.gmail.com)
+  (A1=16d3)(B1=13060)(B2=3304)(B3=1706)(B6=10000081)(A4
+    =CAJQZyKG5fLDQJSqZ=8GYKtqJKpSj23kr5qU9n+t-YXaC7veXVw@mail.gmail.com)
+  (A6=74fda)(B4=18963)(B5=4a13)(B7=7500d)(B8=1827)>
+{1:^80 {(k^96:c)(s=9)} 
+  [4C(^88=93)(^82^87)(^85^88)(^81=)(^83^8A)(^84^8B)(^B4^8C)(^86^8C)
+    (^89=1)(^87^8D)(^9A^90)(^8E=4c)(^B5=0)(^B8=0)(^9C=0)(^9D^AA)(^8B=7c)
+    (^C6^BF)(^B9^C0)]4D 4E 
+  [4F(^88=81)(^82^91)(^85^92)(^81=)(^83^9F)(^84=)(^B4^A0)(^86^A0)(^89=1)
+    (^87^A1)(^9A^90)(^8E=4f)(^B5=0)(^B8^B1)(^9C^B2)(^9D^B3)(^8B=65)
+    (^C6^BE)]
+  [50(^88^B6)(^82^91)(^85^92)(^81=)(^83^A4)(^84=)(^B4^A5)(^86^A5)(^89=1)
+    (^87^A6)(^9A^90)(^8E=50)(^B5=0)(^B8^B4)(^9C^B5)(^9D^B7)(^8B^B8)
+    (^C6^BE)]}
+{4F:^80 {(k^97:c)(s=9)4:m } 4F }
+{50:^80 {(k^97:c)(s=9)5:m } 50 }
+{4C:^80 {(k^97:c)(s=9)1:m } 4C }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [4C(^94=)]
+  [4D(^94=)]
+  [4E(^94=)]
+  [4F(^94=)]
+  [50(^94=)]}
+
+<(82=INBOX.Archive.2024)(83=8082014)(84=e000)(85=638b1981)(A8=5)(BB
+    =1725357719)(BC=12)(99=2)(BD=$122)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^88^83)(^A6^82)(^AF=)(^B0^84)(^A7^85)
+    (^B1=50)(^A0=5)(^A5=50)(^C2^BB)(^BE=12)(^BF=2)(^C0=1)(^C1=0)(^C3^BD)]}
+
+@$${2{@
+@$$}2}@
+
+@$${3{@
+@$$}3}@
+
+@$${4{@
+< <(a=c)> // (f=iso-8859-1)
+  (C7=ns:msg:db:row:scope:ops:all)(C8=ns:msg:db:table:kind:ops)
+  (C9=notAPhishMessage)>
+[50:^80(^BC=)]
+[4C:^80(^BC=)]
+<(C1=b1d65e)(C2=247d1)>[-4D:^80(^88^B6)(^82^91)(^85^92)(^81=)(^83^93)
+    (^84=)(^B4^94)(^86^94)(^89=1)(^87^96)(^9A^90)(^8E=4d)(^B5=0)(^B8^B9)
+    (^9C^BA)(^C6^BE)(^9D^C1)(^8B^C2)(^BC=)]
+[4E:^80(^BC=)]
+[4F:^80(^BC=)]
+[1:^9E(^AF=0)]
+{-1:^C7 {(k^C8:c)(s=9)} }
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${6{@
+@$$}6}@
+
+@$${7{@
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${9{@
+@$$}9}@
+
+@$${A{@
+<(C5=14f)>[50:^80(^B9^C5)]
+<(C3=14d)>[4E:^80(^B9^C3)]
+<(C4=14e)>[4F:^80(^B9^C4)]
+@$$}A}@
+
+@$${C{@
+< <(a=c)> // (f=iso-8859-1)
+  (CA=useServerRetention)>
+@$$}C}@
+
+@$${E{@
+< <(a=c)> // (f=iso-8859-1)
+  (CB=retainBy)(CC=daysToKeepHdrs)(CD=numHdrsToKeep)(CE=daysToKeepBodies)
+  (CF=useServerDefaults)(D0=cleanupBodies)(D1=applyToFlaggedMessages)>
+[1:^9E(^CA=1)]
+@$$}E}@
+
+@$${F{@
+@$$}F}@

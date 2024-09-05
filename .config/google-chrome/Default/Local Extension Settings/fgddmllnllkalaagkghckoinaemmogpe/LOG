@@ -1,0 +1,81 @@
+2024/09/05-11:13:04.371 bf5 Reusing MANIFEST /home/sasham/.config/google-chrome/Default/Local Extension Settings/fgddmllnllkalaagkghckoinaemmogpe/MANIFEST-000001
+2024/09/05-11:13:04.371 bf5 Recovering log #67
+2024/09/05-11:13:04.373 bf5 Reusing old log /home/sasham/.config/google-chrome/Default/Local Extension Settings/fgddmllnllkalaagkghckoinaemmogpe/000067.log 
+2024/09/05-11:21:47.475 bf5 Level-0 table #71: started
+2024/09/05-11:21:47.493 bf5 Level-0 table #71: 937633 bytes OK
+2024/09/05-11:21:47.499 bf5 Delete type=0 #67
+2024/09/05-11:21:47.500 bf6 Compacting 4@0 + 1@1 files
+2024/09/05-11:21:47.516 bf6 Generated table #72@0: 2 keys, 23397 bytes
+2024/09/05-11:21:47.517 bf6 Compacted 4@0 + 1@1 files => 23397 bytes
+2024/09/05-11:21:47.525 bf6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/05-11:21:47.525 bf6 Delete type=2 #68
+2024/09/05-11:21:47.526 bf6 Delete type=2 #61
+2024/09/05-11:21:47.526 bf6 Delete type=2 #63
+2024/09/05-11:21:47.526 bf6 Delete type=2 #71
+2024/09/05-11:21:47.526 bf6 Delete type=2 #66
+2024/09/05-11:31:17.254 bf6 Level-0 table #74: started
+2024/09/05-11:31:17.271 bf6 Level-0 table #74: 929324 bytes OK
+2024/09/05-11:31:17.281 bf6 Delete type=0 #70
+2024/09/05-11:40:02.272 bf6 Level-0 table #76: started
+2024/09/05-11:40:02.305 bf6 Level-0 table #76: 929115 bytes OK
+2024/09/05-11:40:02.315 bf6 Delete type=0 #73
+2024/09/05-11:48:32.414 bf6 Level-0 table #78: started
+2024/09/05-11:48:32.430 bf6 Level-0 table #78: 929252 bytes OK
+2024/09/05-11:48:32.441 bf6 Delete type=0 #75
+2024/09/05-11:56:17.281 bf6 Level-0 table #80: started
+2024/09/05-11:56:17.300 bf6 Level-0 table #80: 929243 bytes OK
+2024/09/05-11:56:17.309 bf6 Delete type=0 #77
+2024/09/05-11:56:17.311 bf6 Compacting 4@0 + 1@1 files
+2024/09/05-11:56:17.340 bf6 Generated table #81@0: 2 keys, 23402 bytes
+2024/09/05-11:56:17.340 bf6 Compacted 4@0 + 1@1 files => 23402 bytes
+2024/09/05-11:56:17.350 bf6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/05-11:56:17.351 bf6 Delete type=2 #78
+2024/09/05-11:56:17.351 bf6 Delete type=2 #76
+2024/09/05-11:56:17.351 bf6 Delete type=2 #74
+2024/09/05-11:56:17.351 bf6 Delete type=2 #80
+2024/09/05-11:56:17.351 bf6 Delete type=2 #72
+2024/09/05-12:05:02.392 bf6 Level-0 table #83: started
+2024/09/05-12:05:02.420 bf6 Level-0 table #83: 929240 bytes OK
+2024/09/05-12:05:02.435 bf6 Delete type=0 #79
+2024/09/05-12:13:17.262 bf6 Level-0 table #85: started
+2024/09/05-12:13:17.280 bf6 Level-0 table #85: 929259 bytes OK
+2024/09/05-12:13:17.293 bf6 Delete type=0 #82
+2024/09/05-12:21:47.595 bf6 Level-0 table #87: started
+2024/09/05-12:21:47.629 bf6 Level-0 table #87: 929361 bytes OK
+2024/09/05-12:21:47.642 bf6 Delete type=0 #84
+2024/09/05-12:31:02.401 bf6 Level-0 table #89: started
+2024/09/05-12:31:02.423 bf6 Level-0 table #89: 929311 bytes OK
+2024/09/05-12:31:02.435 bf6 Delete type=0 #86
+2024/09/05-12:31:02.440 bf6 Compacting 4@0 + 1@1 files
+2024/09/05-12:31:02.500 bf6 Generated table #90@0: 2 keys, 23399 bytes
+2024/09/05-12:31:02.501 bf6 Compacted 4@0 + 1@1 files => 23399 bytes
+2024/09/05-12:31:02.531 bf6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/05-12:31:02.533 bf6 Delete type=2 #85
+2024/09/05-12:31:02.533 bf6 Delete type=2 #87
+2024/09/05-12:31:02.533 bf6 Delete type=2 #83
+2024/09/05-12:31:02.533 bf6 Delete type=2 #89
+2024/09/05-12:31:02.534 bf6 Delete type=2 #81
+2024/09/05-12:39:47.349 bf6 Level-0 table #92: started
+2024/09/05-12:39:47.393 bf6 Level-0 table #92: 929230 bytes OK
+2024/09/05-12:39:47.409 bf6 Delete type=0 #88
+2024/09/05-12:48:02.501 bf6 Level-0 table #94: started
+2024/09/05-12:48:02.550 bf6 Level-0 table #94: 929265 bytes OK
+2024/09/05-12:48:02.563 bf6 Delete type=0 #91
+2024/09/05-12:55:47.267 bf6 Level-0 table #96: started
+2024/09/05-12:55:47.296 bf6 Level-0 table #96: 929392 bytes OK
+2024/09/05-12:55:47.307 bf6 Delete type=0 #93
+2024/09/05-13:04:32.417 bf7 Level-0 table #98: started
+2024/09/05-13:04:32.436 bf7 Level-0 table #98: 929413 bytes OK
+2024/09/05-13:04:32.445 bf7 Delete type=0 #95
+2024/09/05-13:04:32.447 bf7 Compacting 4@0 + 1@1 files
+2024/09/05-13:04:32.476 bf7 Generated table #99@0: 2 keys, 23397 bytes
+2024/09/05-13:04:32.476 bf7 Compacted 4@0 + 1@1 files => 23397 bytes
+2024/09/05-13:04:32.491 bf7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/05-13:04:32.492 bf7 Delete type=2 #92
+2024/09/05-13:04:32.492 bf7 Delete type=2 #94
+2024/09/05-13:04:32.492 bf7 Delete type=2 #90
+2024/09/05-13:04:32.492 bf7 Delete type=2 #98
+2024/09/05-13:04:32.492 bf7 Delete type=2 #96
+2024/09/05-13:12:47.266 bf6 Level-0 table #101: started
+2024/09/05-13:12:47.288 bf6 Level-0 table #101: 929244 bytes OK
+2024/09/05-13:12:47.302 bf6 Delete type=0 #97

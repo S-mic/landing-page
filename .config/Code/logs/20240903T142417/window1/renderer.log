@@ -1,0 +1,9 @@
+2024-09-03 14:24:19.123 [info] Started local extension host with pid 5483.
+2024-09-03 14:24:21.981 [info] [perf] Render performance baseline is 62ms
+2024-09-03 14:26:09.435 [warning] [backup tracker] suspended, ignoring register event file:///home/sasham/dc96b837 
+2024-09-03 14:26:09.446 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/sasham/dc96b837 
+2024-09-03 14:26:09.463 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/sasham/dc96b837 
+2024-09-03 14:26:09.578 [warning] [backup tracker] suspended, ignoring content change event untitled:/home/sasham/to 
+2024-09-03 14:26:09.640 [warning] [backup tracker] suspended, ignoring register event file:///home/sasham/to 
+2024-09-03 14:26:09.646 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/sasham/to 
+2024-09-03 14:26:09.651 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/sasham/to 

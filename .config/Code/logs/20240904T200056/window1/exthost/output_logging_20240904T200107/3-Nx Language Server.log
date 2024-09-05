@@ -1,0 +1,11 @@
+[Nxls] - 2024-09-04T18:01:19.160Z - Initializing Nx Language Server
+
+[Nxls] - 2024-09-04T18:01:19.212Z - Retrieving workspace configuration
+
+[Nxls] - 2024-09-04T18:01:19.213Z - Major version is less than 12
+
+[Nxls] - 2024-09-04T18:01:19.362Z - Nx version <16.4.0, using @parcel/watcher
+
+[Nxls] - 2024-09-04T18:01:21.071Z - Unable to load the "nx" package from the workspace. Please ensure that the proper dependencies are installed locally.
+
+[Error - 8:01:22 PM] Unhandled exception: local Nx dependency not found

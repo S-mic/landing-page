@@ -1,0 +1,8 @@
+2024-09-03 16:06:22.987 [info] Started local extension host with pid 6732.
+2024-09-03 16:06:29.444 [info] [perf] Render performance baseline is 156ms
+2024-09-03 16:34:50.966 [error] [Extension Host] (node:6732) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-09-03 16:35:08.771 [info] Settings Sync: Updating due to change in sessions
+2024-09-03 16:35:08.773 [info] Settings Sync: Updating due to change in sessions
+2024-09-03 16:35:18.059 [info] Started local extension host with pid 8401.
+2024-09-03 16:35:24.601 [info] [perf] Render performance baseline is 404ms

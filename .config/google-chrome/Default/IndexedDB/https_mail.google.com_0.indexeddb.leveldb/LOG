@@ -1,0 +1,6 @@
+2024/09/05-13:00:31.995 bf6 Reusing MANIFEST /home/sasham/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/05-13:00:31.996 bf6 Recovering log #3
+2024/09/05-13:00:32.019 bf6 Reusing old log /home/sasham/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2024/09/05-13:00:57.248 bf6 Level-0 table #5: started
+2024/09/05-13:00:57.290 bf6 Level-0 table #5: 2964306 bytes OK
+2024/09/05-13:00:57.296 bf6 Delete type=0 #3

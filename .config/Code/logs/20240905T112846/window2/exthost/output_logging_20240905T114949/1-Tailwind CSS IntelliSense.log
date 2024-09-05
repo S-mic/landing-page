@@ -1,0 +1,33 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Info  - 11:52:56 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
+[Global] Initialized 0 projects
+[Info  - 12:38:29 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
+[Info  - 12:38:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
+[Info  - 12:38:53 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
+[Info  - 12:39:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
+[Info  - 12:39:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/sasham/Projects/landing-page/index.html',
+  normalPath: '/home/sasham/Projects/landing-page/index.html'
+}
