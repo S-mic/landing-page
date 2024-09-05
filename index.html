@@ -13,7 +13,7 @@
             height: 100vh;
             margin: 0;
             padding: 20px;
-            background: linear-gradient(135deg, #000, #111); /* Darker gradient */
+            background: linear-gradient(135deg, #000, #40E0D0); /* Black to Turquoise gradient */
             font-family: 'Roboto', sans-serif;
             color: #fff;
             text-align: center;
@@ -22,8 +22,8 @@
         }
 
         @keyframes backgroundColorChange {
-            0% { background: linear-gradient(135deg, #000, #111); }
-            100% { background: linear-gradient(135deg, #111, #222); }
+            0% { background: linear-gradient(135deg, #000, #40E0D0); }
+            100% { background: linear-gradient(135deg, #40E0D0, #000); }
         }
 
         .container {
@@ -55,19 +55,24 @@
             position: relative;
             overflow: hidden;
             border-radius: 15px 15px 0 0;
+            background: #111; /* Ensures the area outside the image is a solid color */
+            display: flex;
+            align-items: center; /* Vertically center images */
+            justify-content: center; /* Horizontally center images */
         }
 
         .transition-images {
             display: flex;
-            width: 300%;
+            width: 300%; /* Enough width for all images to sit horizontally */
             height: 100%;
             transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Smooth transition */
         }
 
         .image {
-            width: 33.33%;
-            height: 100%;
-            object-fit: cover;
+            width: 100%; /* Let the images be responsive */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 100%; /* Prevent images from overflowing vertically */
+            object-fit: contain; /* Fit the images without covering the entire screen */
             flex-shrink: 0;
             opacity: 0.8;
             transition: opacity 0.5s ease-in-out; /* Fade effect */
@@ -187,35 +192,38 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const imagesContainer = document.querySelector('.transition-images');
-            const images = document.querySelectorAll('.transition-images .image');
-            const totalImages = images.length;
-            let currentIndex = 0;
+            const homeButton = document.querySelector('.home');
+            const menuButton = document.querySelector('.menu');
+            const backButton = document.querySelector('.back');
+            const screen = document.querySelector('.screen');
+            const description = document.querySelector('.description');
+            let screenVisible = true;
 
-            function changeImage() {
-                currentIndex = (currentIndex + 1) % totalImages;
-                const offset = -currentIndex * 100 / totalImages;
-                imagesContainer.style.transform = `translateX(${offset}%)`;
-            }
+            // Red button: Redirect to Vodafone pictures page
+            homeButton.addEventListener('click', function() {
+                window.location.href = 'https://www.google.com/search?q=vodafone+touchscreen+phones&tbm=isch'; // Redirect to Google Images
+            });
 
-            function changeBackgroundColor() {
-                const body = document.body;
-                const colors = [
-                    'linear-gradient(135deg, #000, #111)',
-                    'linear-gradient(135deg, #111, #222)',
-                    'linear-gradient(135deg, #222, #333)'
-                ];
-                let currentColor = 0;
+            // Blue button: Redirect to Vodafone Wikipedia page
+            menuButton.addEventListener('click', function() {
+                window.location.href = 'https://en.wikipedia.org/wiki/Vodafone'; // Redirect to Wikipedia page
+            });
 
-                setInterval(() => {
-                    body.style.background = colors[currentColor];
-                    currentColor = (currentColor + 1) % colors.length;
-                }, 5000); // Change color every 5 seconds
-            }
-
-            setInterval(changeImage, 3000); // Change image every 3 seconds
-            changeBackgroundColor(); // Start changing background colors
+            // Green button: Toggle screen visibility (hide/show the screen and description)
+            backButton.addEventListener('click', function() {
+                screenVisible = !screenVisible;
+                if (screenVisible) {
+                    screen.style.display = 'flex'; // Show screen
+                    description.style.display = 'block'; // Show description
+                } else {
+                    screen.style.display = 'none'; // Hide screen
+                    description.style.display = 'none'; // Hide description
+                }
+            });
         });
     </script>
 </body>
 </html>
+
+
+<!-- the code i gave you is correct the one  you updated has problems the images are not animation or moving the green button is on top the red theres no on button on the outside of the container -->
