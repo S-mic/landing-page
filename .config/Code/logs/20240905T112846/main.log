@@ -6,3 +6,5 @@
 2024-09-05 12:29:16.510 [info] update#setState idle
 2024-09-05 13:16:00.641 [info] Extension host with pid 4224 exited with code: 0, signal: unknown.
 2024-09-05 13:16:05.918 [info] Extension host with pid 6144 exited with code: 0, signal: unknown.
+2024-09-05 13:29:16.507 [info] update#setState checking for updates
+2024-09-05 13:29:16.514 [info] update#setState idle

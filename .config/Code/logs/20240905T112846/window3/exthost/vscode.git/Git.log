@@ -89,3 +89,848 @@ See "git help gc" for manual housekeeping.
 2024-09-05 13:19:17.898 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
 2024-09-05 13:19:17.944 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d [16ms]
 2024-09-05 13:19:17.949 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [7ms]
+2024-09-05 13:20:12.748 [info] > git add -A -- . [32248ms]
+2024-09-05 13:20:12.748 [info] warning: adding embedded git repository: Projects/landing-page
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> Projects/landing-page
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached Projects/landing-page
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: Projects/pacman-game
+warning: adding embedded git repository: Projects/web-apps
+2024-09-05 13:20:13.749 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [994ms]
+2024-09-05 13:20:13.749 [info] warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:20:13.754 [info] > git config --get commit.template [1ms]
+2024-09-05 13:20:13.769 [info] > git config --get commit.template [7ms]
+2024-09-05 13:20:13.770 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:20:13.775 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:13.776 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:14.080 [info] > git status -z -uall [299ms]
+2024-09-05 13:20:14.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2024-09-05 13:20:14.129 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:14.130 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:14.137 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:20:14.143 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:20:14.143 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:14.151 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-05 13:20:14.158 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-09-05 13:20:14.166 [info] > git diff --name-status -z --diff-filter=ADMR fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d...refs/remotes/origin/main [3ms]
+2024-09-05 13:20:15.654 [info] > git config --get commit.template [8ms]
+2024-09-05 13:20:15.664 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-09-05 13:20:15.674 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/index.js [12ms]
+2024-09-05 13:20:15.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:15.683 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:15.695 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d [5ms]
+2024-09-05 13:20:15.695 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-09-05 13:20:15.783 [info] > git show --textconv :Projects/pacman-game/src/index.js [75ms]
+2024-09-05 13:20:16.076 [info] > git status -z -uall [376ms]
+2024-09-05 13:20:16.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-05 13:20:16.096 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:20:16.096 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:16.103 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:20:16.109 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:20:16.109 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:18.651 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2956ms]
+2024-09-05 13:20:19.285 [info] > git check-ignore -v -z --stdin [26ms]
+2024-09-05 13:20:19.476 [info] > git config --get commit.template [7ms]
+2024-09-05 13:20:19.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:20:19.482 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:19.484 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:20:19.761 [info] > git status -z -uall [272ms]
+2024-09-05 13:20:19.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:19.779 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:19.779 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:19.790 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:19.797 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:20:19.797 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:20.410 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-05 13:20:24.799 [info] > git config --get commit.template [8ms]
+2024-09-05 13:20:24.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:24.807 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:24.809 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:20:25.097 [info] > git status -z -uall [284ms]
+2024-09-05 13:20:25.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:25.114 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:25.114 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:25.123 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:25.129 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:20:25.130 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:25.738 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-05 13:20:30.122 [info] > git config --get commit.template [3ms]
+2024-09-05 13:20:30.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:30.135 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:30.136 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:20:30.413 [info] > git status -z -uall [271ms]
+2024-09-05 13:20:30.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:30.433 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:30.433 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:30.441 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:20:30.448 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:20:30.448 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:31.060 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-05 13:20:35.439 [info] > git config --get commit.template [10ms]
+2024-09-05 13:20:35.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:35.446 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:35.447 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:35.740 [info] > git status -z -uall [289ms]
+2024-09-05 13:20:35.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:35.758 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:20:35.758 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:35.765 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:20:35.771 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:20:35.771 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:36.399 [info] > git check-ignore -v -z --stdin [13ms]
+2024-09-05 13:20:40.783 [info] > git config --get commit.template [2ms]
+2024-09-05 13:20:40.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:40.806 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:40.809 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:20:41.173 [info] > git status -z -uall [356ms]
+2024-09-05 13:20:41.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:41.192 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:20:41.192 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:41.201 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:41.211 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:20:41.211 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:41.852 [info] > git check-ignore -v -z --stdin [16ms]
+2024-09-05 13:20:46.199 [info] > git config --get commit.template [9ms]
+2024-09-05 13:20:46.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:20:46.207 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:46.208 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:46.520 [info] > git status -z -uall [307ms]
+2024-09-05 13:20:46.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:46.540 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:20:46.541 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:46.548 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:46.554 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:20:46.554 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:48.041 [info] > git fetch [640ms]
+2024-09-05 13:20:48.041 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:20:48.059 [info] > git config --get commit.template [4ms]
+2024-09-05 13:20:48.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-05 13:20:48.080 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:48.081 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:48.361 [info] > git status -z -uall [274ms]
+2024-09-05 13:20:48.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:48.378 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:48.378 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:48.386 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:48.395 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:20:48.395 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:49.037 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-05 13:20:49.326 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/index.js [10ms]
+2024-09-05 13:20:49.342 [info] > git show --textconv :Projects/pacman-game/src/index.js [10ms]
+2024-09-05 13:20:51.541 [info] > git config --get commit.template [6ms]
+2024-09-05 13:20:51.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:51.548 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:51.549 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:51.852 [info] > git status -z -uall [298ms]
+2024-09-05 13:20:51.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:20:51.870 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:20:51.870 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:51.877 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:20:51.883 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:20:51.883 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:54.397 [info] > git add -A -- . [427ms]
+2024-09-05 13:20:54.397 [info] fatal: confused by unstable object source data for ee8f8f9ad0dfcc7328a61b8acfb56df747c39d6b
+2024-09-05 13:20:54.410 [info] > git config --get commit.template [7ms]
+2024-09-05 13:20:54.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:20:54.417 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:54.419 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:20:54.678 [info] > git status -z -uall [255ms]
+2024-09-05 13:20:54.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:54.698 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:20:54.698 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:54.706 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:54.714 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:20:54.714 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:20:55.503 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-05 13:20:57.472 [info] > git config --get commit.template [8ms]
+2024-09-05 13:20:57.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:20:57.478 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:20:57.480 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:20:57.763 [info] > git status -z -uall [279ms]
+2024-09-05 13:20:57.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:20:57.788 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:20:57.788 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:20:57.797 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:20:57.803 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:20:57.803 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:03.413 [info] > git config --get commit.template [6ms]
+2024-09-05 13:21:03.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:03.420 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:03.422 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:21:03.661 [info] > git status -z -uall [235ms]
+2024-09-05 13:21:03.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:03.678 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:21:03.678 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:03.687 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:21:03.697 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:21:03.697 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:16.112 [info] > git config --get commit.template [9ms]
+2024-09-05 13:21:16.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:21:16.118 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:16.120 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:21:16.444 [info] > git status -z -uall [315ms]
+2024-09-05 13:21:16.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:16.464 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:21:16.464 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:16.471 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:21:16.480 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:21:16.480 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:21.463 [info] > git config --get commit.template [3ms]
+2024-09-05 13:21:21.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:21:21.476 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:21.477 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:21:21.743 [info] > git status -z -uall [262ms]
+2024-09-05 13:21:21.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:21:21.760 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:21:21.760 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:21.768 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:21:21.774 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:21:21.774 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:23.235 [info] > git add -A -- /home/sasham/.cache/google-chrome/Default/Cache/Cache_Data/49047533b13746ba_0 /home/sasham/.cache/google-chrome/Default/Cache/Cache_Data/index-dir/the-real-index /home/sasham/.config/Code/TransportSecurity /home/sasham/.config/Code/User/globalStorage/state.vscdb /home/sasham/.config/Code/User/globalStorage/storage.json /home/sasham/.config/Code/User/workspaceStorage/8bf94305a61796de6fe2389895deffc8/state.vscdb /home/sasham/.config/Code/logs/20240905T112846/window3/exthost/exthost.log /home/sasham/.config/Code/logs/20240905T112846/window3/exthost/vscode.git/Git.log /home/sasham/.config/google-chrome/BrowserMetrics/BrowserMetrics-66D9761E-BBE.pma /home/sasham/.config/google-chrome/Default/Cookies /home/sasham/.config/google-chrome/Default/DIPS /home/sasham/.config/google-chrome/Default/Local Extension Settings/blgcbajigpdfohpgcmbbfnphcgifjopc/000003.log /home/sasham/.config/google-chrome/Default/Local Extension Settings/fgddmllnllkalaagkghckoinaemmogpe/000100.log /home/sasham/.config/google-chrome/Default/Local Storage/leveldb/000042.log /home/sasham/.config/google-chrome/Default/Preferences /home/sasham/.config/google-chrome/Default/Reporting and NEL /home/sasham/.config/google-chrome/Default/Sessions/Session_13370006887367979 /home/sasham/.config/google-chrome/Default/Sync Data/LevelDB/000016.log /home/sasham/.config/google-chrome/Default/TransportSecurity /home/sasham/.config/google-chrome/Default/WebStorage/QuotaManager /home/sasham/.config/google-chrome/Default/WebStorage/QuotaManager-journal /home/sasham/Projects/pacman-game [99ms]
+2024-09-05 13:21:23.235 [info] fatal: confused by unstable object source data for 54de2b7861c5ae6ca964614fa3fbe05b857f6e79
+2024-09-05 13:21:23.245 [info] > git config --get commit.template [5ms]
+2024-09-05 13:21:23.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:21:23.252 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:23.253 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:21:23.496 [info] > git status -z -uall [237ms]
+2024-09-05 13:21:23.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:21:23.518 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:21:23.518 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:23.528 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:21:23.538 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-05 13:21:23.538 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:32.673 [info] > git config --get commit.template [2ms]
+2024-09-05 13:21:32.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-05 13:21:32.693 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:32.700 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-09-05 13:21:33.094 [info] > git status -z -uall [387ms]
+2024-09-05 13:21:33.105 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:33.113 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:21:33.113 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:33.123 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:21:33.133 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:21:33.133 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:33.775 [info] > git check-ignore -v -z --stdin [14ms]
+2024-09-05 13:21:38.125 [info] > git config --get commit.template [8ms]
+2024-09-05 13:21:38.126 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:21:38.132 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:38.135 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-05 13:21:38.420 [info] > git status -z -uall [280ms]
+2024-09-05 13:21:38.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:38.441 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:21:38.442 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:38.453 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-05 13:21:38.462 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:21:38.462 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:40.660 [info] > git show --textconv :Projects/pacman-game/src/index.js [11ms]
+2024-09-05 13:21:40.672 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/index.js [15ms]
+2024-09-05 13:21:42.839 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-05 13:21:42.861 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d [14ms]
+2024-09-05 13:21:43.442 [info] > git config --get commit.template [2ms]
+2024-09-05 13:21:43.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:43.458 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:43.460 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:21:43.845 [info] > git status -z -uall [380ms]
+2024-09-05 13:21:43.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-05 13:21:43.869 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:21:43.869 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:43.879 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:21:43.887 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:21:43.887 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:44.852 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [1992ms]
+2024-09-05 13:21:48.873 [info] > git config --get commit.template [7ms]
+2024-09-05 13:21:48.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:21:48.881 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:48.882 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:21:49.149 [info] > git status -z -uall [261ms]
+2024-09-05 13:21:49.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:21:49.168 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:21:49.168 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:49.175 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:21:49.181 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:21:49.181 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:21:59.040 [info] > git config --get commit.template [7ms]
+2024-09-05 13:21:59.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:21:59.046 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:21:59.047 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:21:59.325 [info] > git status -z -uall [270ms]
+2024-09-05 13:21:59.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-05 13:21:59.352 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:21:59.352 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:21:59.360 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:21:59.369 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:21:59.369 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:22:04.353 [info] > git config --get commit.template [7ms]
+2024-09-05 13:22:04.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:22:04.360 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:22:04.361 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:22:04.605 [info] > git status -z -uall [239ms]
+2024-09-05 13:22:04.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:22:04.622 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:22:04.622 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:22:04.628 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:22:04.634 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:22:04.634 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:23:33.812 [info] > git show --textconv :Projects/pacman-game/src/App.js [15ms]
+2024-09-05 13:23:33.820 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/App.js [15ms]
+2024-09-05 13:24:02.082 [info] > git config --get commit.template [2ms]
+2024-09-05 13:24:02.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:24:02.098 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:02.101 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:24:02.426 [info] > git status -z -uall [320ms]
+2024-09-05 13:24:02.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:02.445 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:02.445 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:02.451 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:02.458 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:24:02.458 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:02.749 [info] > git fetch [678ms]
+2024-09-05 13:24:02.749 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:24:02.760 [info] > git config --get commit.template [6ms]
+2024-09-05 13:24:02.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:24:02.766 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:02.767 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:24:03.020 [info] > git status -z -uall [249ms]
+2024-09-05 13:24:03.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:03.038 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:03.038 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:03.047 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:03.053 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:03.054 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:04.077 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/App.js [11ms]
+2024-09-05 13:24:04.093 [info] > git show --textconv :Projects/pacman-game/src/App.js [9ms]
+2024-09-05 13:24:07.458 [info] > git config --get commit.template [6ms]
+2024-09-05 13:24:07.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:07.465 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:07.467 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:24:07.708 [info] > git status -z -uall [237ms]
+2024-09-05 13:24:07.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:24:07.725 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:24:07.725 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:07.732 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:07.738 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:24:07.738 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:11.181 [info] > git check-ignore -v -z --stdin [12ms]
+2024-09-05 13:24:21.065 [info] > git config --get commit.template [7ms]
+2024-09-05 13:24:21.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:21.072 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:21.075 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-05 13:24:21.365 [info] > git status -z -uall [282ms]
+2024-09-05 13:24:21.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:21.384 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:24:21.384 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:21.392 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:21.398 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:21.398 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:26.396 [info] > git config --get commit.template [7ms]
+2024-09-05 13:24:26.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:24:26.403 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:26.404 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:24:26.646 [info] > git status -z -uall [237ms]
+2024-09-05 13:24:26.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:26.662 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:26.662 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:26.668 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:26.674 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:24:26.674 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:31.451 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.js [9ms]
+2024-09-05 13:24:31.457 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.js [10ms]
+2024-09-05 13:24:31.665 [info] > git config --get commit.template [5ms]
+2024-09-05 13:24:31.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:31.674 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:31.675 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:24:31.748 [info] > git check-ignore -v -z --stdin [14ms]
+2024-09-05 13:24:31.958 [info] > git status -z -uall [278ms]
+2024-09-05 13:24:31.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:31.977 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:31.977 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:31.983 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:31.990 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:31.990 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:36.995 [info] > git config --get commit.template [12ms]
+2024-09-05 13:24:36.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:37.002 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:37.004 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:24:37.288 [info] > git status -z -uall [277ms]
+2024-09-05 13:24:37.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:37.304 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:37.304 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:37.310 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:37.316 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:24:37.316 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:42.317 [info] > git config --get commit.template [7ms]
+2024-09-05 13:24:42.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:42.324 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:42.326 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:24:42.561 [info] > git status -z -uall [231ms]
+2024-09-05 13:24:42.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:24:42.578 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:42.578 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:42.586 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:24:42.592 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:42.592 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:47.586 [info] > git config --get commit.template [6ms]
+2024-09-05 13:24:47.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:47.593 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:47.595 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:24:47.835 [info] > git status -z -uall [236ms]
+2024-09-05 13:24:47.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:47.852 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:47.852 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:47.858 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:47.865 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:47.865 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:52.864 [info] > git config --get commit.template [7ms]
+2024-09-05 13:24:52.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:52.871 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:52.873 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:24:53.103 [info] > git status -z -uall [225ms]
+2024-09-05 13:24:53.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:24:53.122 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:24:53.122 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:53.129 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:53.134 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:53.135 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:24:55.970 [info] > git show --textconv :Projects/pacman-game/src/components/PacMan.js [14ms]
+2024-09-05 13:24:55.975 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/PacMan.js [14ms]
+2024-09-05 13:24:56.222 [info] > git check-ignore -v -z --stdin [14ms]
+2024-09-05 13:24:58.364 [info] > git config --get commit.template [7ms]
+2024-09-05 13:24:58.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:58.371 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:24:58.373 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:24:58.619 [info] > git status -z -uall [240ms]
+2024-09-05 13:24:58.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:24:58.636 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:24:58.636 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:24:58.643 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:24:58.648 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:24:58.648 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:17.041 [info] > git config --get commit.template [5ms]
+2024-09-05 13:25:17.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:25:17.060 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:17.061 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:25:17.353 [info] > git status -z -uall [286ms]
+2024-09-05 13:25:17.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:25:17.368 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:25:17.368 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:17.375 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:25:17.382 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:17.382 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:22.382 [info] > git config --get commit.template [9ms]
+2024-09-05 13:25:22.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:25:22.388 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:22.390 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:25:22.620 [info] > git status -z -uall [226ms]
+2024-09-05 13:25:22.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:25:22.638 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:25:22.638 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:22.646 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:25:22.652 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:22.652 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:25.918 [info] > git show --textconv :Projects/pacman-game/src/components/Ghost.js [12ms]
+2024-09-05 13:25:25.923 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/Ghost.js [11ms]
+2024-09-05 13:25:26.172 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-05 13:25:28.318 [info] > git config --get commit.template [7ms]
+2024-09-05 13:25:28.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:25:28.326 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:28.327 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:25:28.577 [info] > git status -z -uall [245ms]
+2024-09-05 13:25:28.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:25:28.597 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:25:28.597 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:28.605 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:25:28.613 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:28.613 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:33.610 [info] > git config --get commit.template [7ms]
+2024-09-05 13:25:33.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:25:33.616 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:33.618 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:25:33.863 [info] > git status -z -uall [241ms]
+2024-09-05 13:25:33.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:25:33.879 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:25:33.879 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:33.886 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:25:33.892 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:33.892 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:49.163 [info] > git config --get commit.template [2ms]
+2024-09-05 13:25:49.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:25:49.181 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:49.183 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:25:49.458 [info] > git status -z -uall [271ms]
+2024-09-05 13:25:49.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:25:49.480 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:25:49.480 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:49.490 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:25:49.497 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:49.497 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:54.483 [info] > git config --get commit.template [6ms]
+2024-09-05 13:25:54.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:25:54.489 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:25:54.491 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:25:54.735 [info] > git status -z -uall [240ms]
+2024-09-05 13:25:54.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:25:54.752 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:25:54.752 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:25:54.758 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:25:54.764 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:25:54.764 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:25:58.148 [info] > git show --textconv :Projects/pacman-game/src/components/Scoreboard.js [20ms]
+2024-09-05 13:25:58.165 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/Scoreboard.js [21ms]
+2024-09-05 13:25:58.380 [info] > git check-ignore -v -z --stdin [13ms]
+2024-09-05 13:26:00.475 [info] > git config --get commit.template [7ms]
+2024-09-05 13:26:00.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:26:00.481 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:00.483 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:26:00.797 [info] > git status -z -uall [310ms]
+2024-09-05 13:26:00.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:00.813 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:26:00.814 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:00.821 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:26:00.827 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:26:00.827 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:02.265 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.js [13ms]
+2024-09-05 13:26:02.277 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.js [15ms]
+2024-09-05 13:26:05.825 [info] > git config --get commit.template [7ms]
+2024-09-05 13:26:05.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:26:05.832 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:05.834 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:26:06.117 [info] > git status -z -uall [277ms]
+2024-09-05 13:26:06.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:06.133 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:26:06.133 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:06.140 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:26:06.146 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:26:06.146 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:11.139 [info] > git config --get commit.template [7ms]
+2024-09-05 13:26:11.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:11.145 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:11.146 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:26:11.382 [info] > git status -z -uall [232ms]
+2024-09-05 13:26:11.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:11.399 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:26:11.399 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:11.406 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:26:11.412 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:26:11.412 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:16.403 [info] > git config --get commit.template [6ms]
+2024-09-05 13:26:16.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:26:16.409 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:16.411 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:26:16.652 [info] > git status -z -uall [236ms]
+2024-09-05 13:26:16.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:16.668 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:26:16.668 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:16.677 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:26:16.683 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:26:16.683 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:21.674 [info] > git config --get commit.template [5ms]
+2024-09-05 13:26:21.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:26:21.680 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:21.681 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:26:21.918 [info] > git status -z -uall [232ms]
+2024-09-05 13:26:21.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:26:21.937 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:26:21.937 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:21.945 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:26:21.951 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:26:21.951 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:29.612 [info] > git show --textconv :Projects/pacman-game/src/components/Scoreboard.js [13ms]
+2024-09-05 13:26:29.619 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/Scoreboard.js [13ms]
+2024-09-05 13:26:34.806 [info] > git config --get commit.template [9ms]
+2024-09-05 13:26:34.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:26:34.814 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:34.815 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:26:35.097 [info] > git status -z -uall [275ms]
+2024-09-05 13:26:35.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:26:35.117 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:26:35.117 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:35.124 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:26:35.131 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:26:35.131 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:26:40.124 [info] > git config --get commit.template [2ms]
+2024-09-05 13:26:40.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:26:40.143 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:26:40.146 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-05 13:26:40.469 [info] > git status -z -uall [313ms]
+2024-09-05 13:26:40.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-05 13:26:40.503 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:26:40.503 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:26:40.510 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:26:40.517 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-05 13:26:40.517 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:02.884 [info] > git config --get commit.template [5ms]
+2024-09-05 13:27:02.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:27:02.900 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:02.901 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:27:03.159 [info] > git status -z -uall [251ms]
+2024-09-05 13:27:03.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-05 13:27:03.196 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-05 13:27:03.196 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:03.210 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:27:03.220 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:27:03.220 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:03.810 [info] > git fetch [631ms]
+2024-09-05 13:27:03.810 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:27:03.821 [info] > git config --get commit.template [6ms]
+2024-09-05 13:27:03.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:27:03.827 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:03.828 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:27:04.070 [info] > git status -z -uall [238ms]
+2024-09-05 13:27:04.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:27:04.090 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:27:04.090 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:04.098 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:27:04.104 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:27:04.104 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:04.998 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/Scoreboard.js [11ms]
+2024-09-05 13:27:05.015 [info] > git show --textconv :Projects/pacman-game/src/components/Scoreboard.js [10ms]
+2024-09-05 13:27:08.201 [info] > git config --get commit.template [8ms]
+2024-09-05 13:27:08.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:08.208 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:08.210 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:27:08.444 [info] > git status -z -uall [230ms]
+2024-09-05 13:27:08.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:27:08.461 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:08.461 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:08.468 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:27:08.474 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:27:08.474 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:13.943 [info] > git config --get commit.template [7ms]
+2024-09-05 13:27:13.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:13.950 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:13.952 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:27:14.193 [info] > git status -z -uall [236ms]
+2024-09-05 13:27:14.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:14.209 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:14.209 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:14.215 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:27:14.221 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:27:14.221 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:16.727 [info] > git show --textconv :Projects/pacman-game/src/App.css [10ms]
+2024-09-05 13:27:16.734 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/App.css [11ms]
+2024-09-05 13:27:19.633 [info] > git config --get commit.template [6ms]
+2024-09-05 13:27:19.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:27:19.639 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:19.641 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:27:19.880 [info] > git status -z -uall [234ms]
+2024-09-05 13:27:19.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:19.895 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:27:19.895 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:19.902 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2024-09-05 13:27:19.907 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:27:19.907 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:24.903 [info] > git config --get commit.template [6ms]
+2024-09-05 13:27:24.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:27:24.910 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:24.911 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:27:25.168 [info] > git status -z -uall [252ms]
+2024-09-05 13:27:25.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:25.187 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:25.187 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:25.195 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:27:25.202 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:27:25.202 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:31.823 [info] > git config --get commit.template [6ms]
+2024-09-05 13:27:31.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:31.832 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:31.834 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:27:32.107 [info] > git status -z -uall [268ms]
+2024-09-05 13:27:32.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:32.126 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:32.126 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:32.135 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2024-09-05 13:27:32.141 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:27:32.141 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:37.132 [info] > git config --get commit.template [6ms]
+2024-09-05 13:27:37.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:27:37.139 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:37.140 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:27:37.428 [info] > git status -z -uall [283ms]
+2024-09-05 13:27:37.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:27:37.450 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:37.450 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:37.462 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:27:37.472 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-05 13:27:37.472 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:27:55.343 [info] > git config --get commit.template [19ms]
+2024-09-05 13:27:55.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:27:55.354 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:27:55.358 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-05 13:27:55.677 [info] > git status -z -uall [309ms]
+2024-09-05 13:27:55.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:27:55.693 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:27:55.693 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:27:55.699 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:27:55.705 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:27:55.705 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:28:00.704 [info] > git config --get commit.template [6ms]
+2024-09-05 13:28:00.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:28:00.711 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:28:00.713 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:28:00.954 [info] > git status -z -uall [236ms]
+2024-09-05 13:28:00.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:28:00.972 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:28:00.972 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:28:00.979 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:28:00.985 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:28:00.985 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:28:05.983 [info] > git config --get commit.template [8ms]
+2024-09-05 13:28:05.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:28:05.990 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:28:05.992 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:28:06.243 [info] > git status -z -uall [246ms]
+2024-09-05 13:28:06.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:28:06.261 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:28:06.261 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:28:06.269 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:28:06.275 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:28:06.275 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:28:11.270 [info] > git config --get commit.template [6ms]
+2024-09-05 13:28:11.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:28:11.279 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:28:11.280 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:28:11.516 [info] > git status -z -uall [231ms]
+2024-09-05 13:28:11.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:28:11.534 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:28:11.534 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:28:11.541 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:28:11.546 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:28:11.546 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:28:13.282 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.css [12ms]
+2024-09-05 13:28:13.288 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.css [10ms]
+2024-09-05 13:28:13.550 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-05 13:28:54.994 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.js [16ms]
+2024-09-05 13:28:55.011 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.js [18ms]
+2024-09-05 13:31:36.384 [info] > git config --get commit.template [11ms]
+2024-09-05 13:31:36.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:31:36.391 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:31:36.393 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:31:36.685 [info] > git status -z -uall [287ms]
+2024-09-05 13:31:36.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:31:36.704 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:31:36.704 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:31:36.710 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:31:36.717 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:31:36.717 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:31:37.070 [info] > git fetch [708ms]
+2024-09-05 13:31:37.070 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:31:37.080 [info] > git config --get commit.template [6ms]
+2024-09-05 13:31:37.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:31:37.087 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:31:37.088 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-05 13:31:37.365 [info] > git status -z -uall [273ms]
+2024-09-05 13:31:37.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:31:37.382 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:31:37.382 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:31:37.389 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:31:37.395 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:31:37.395 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:31:38.346 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.js [11ms]
+2024-09-05 13:31:38.362 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.js [10ms]
+2024-09-05 13:41:54.795 [info] > git config --get commit.template [8ms]
+2024-09-05 13:41:54.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:41:54.803 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:41:54.805 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:41:55.113 [info] > git status -z -uall [303ms]
+2024-09-05 13:41:55.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:41:55.130 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:41:55.130 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:41:55.138 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-05 13:41:55.144 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:41:55.144 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:41:55.479 [info] > git fetch [713ms]
+2024-09-05 13:41:55.479 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2024-09-05 13:41:55.492 [info] > git config --get commit.template [7ms]
+2024-09-05 13:41:55.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:41:55.499 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:41:55.501 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:41:55.788 [info] > git status -z -uall [282ms]
+2024-09-05 13:41:55.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:41:55.807 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-05 13:41:55.807 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:41:55.813 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:41:55.819 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:41:55.819 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:41:56.768 [info] > git ls-files --stage -- /home/sasham/Projects/pacman-game/src/components/GameBoard.js [9ms]
+2024-09-05 13:41:56.784 [info] > git show --textconv :Projects/pacman-game/src/components/GameBoard.js [9ms]
+2024-09-05 13:42:00.139 [info] > git config --get commit.template [6ms]
+2024-09-05 13:42:00.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:42:00.146 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:42:00.148 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:42:00.397 [info] > git status -z -uall [244ms]
+2024-09-05 13:42:00.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:42:00.413 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-05 13:42:00.413 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:42:00.421 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:42:00.429 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-05 13:42:00.429 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:42:05.425 [info] > git config --get commit.template [2ms]
+2024-09-05 13:42:05.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:42:05.437 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:42:05.439 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:42:05.693 [info] > git status -z -uall [249ms]
+2024-09-05 13:42:05.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-05 13:42:05.712 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:42:05.712 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:42:05.719 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:42:05.726 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:42:05.726 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:42:19.597 [info] > git config --get commit.template [8ms]
+2024-09-05 13:42:19.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-05 13:42:19.605 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sasham/.git/refs/remotes/origin/main'
+2024-09-05 13:42:19.607 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-05 13:42:19.880 [info] > git status -z -uall [268ms]
+2024-09-05 13:42:19.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-05 13:42:19.901 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-05 13:42:19.901 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-05 13:42:19.910 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-05 13:42:19.917 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-05 13:42:19.917 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-05 13:42:21.483 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-05 13:42:21.507 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d [8ms]
+2024-09-05 13:42:22.034 [info] > git check-ignore -v -z --stdin [40ms]
+2024-09-05 13:42:24.503 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent fd0f1b7a08db9c0ed6d0c0a7a7150f407d16d30d.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2997ms]

@@ -24,3 +24,52 @@
 2024-09-05 13:18:04.008 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
 2024-09-05 13:18:14.805 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-09-05 13:18:14.812 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-05 13:20:14.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10012
+2024-09-05 13:24:11.184 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:24:12.188 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:24:31.749 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:24:32.751 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:24:56.223 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:24:57.225 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:25:26.173 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:25:27.174 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:25:58.380 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:25:59.382 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:28:13.551 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-05 13:28:14.551 [error] Error: Git error
+	at ChildProcess.<anonymous> (/snap/code/167/usr/share/code/resources/app/extensions/git/dist/main.js:2:1030937)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)

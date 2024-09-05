@@ -1,0 +1,31 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 2px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border: 1px solid #000;
+  }
+  
+  .pacman {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  .ghost {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .scoreboard {
+    margin-bottom: 20px;
+  }
+  
