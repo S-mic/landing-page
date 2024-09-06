@@ -6,169 +6,218 @@
     <title>Vodafone Touchscreen Revival</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #000, #40E0D0); /* Black to Turquoise gradient */
-            font-family: 'Roboto', sans-serif;
-            color: #fff;
-            text-align: center;
-            overflow: hidden;
-            animation: backgroundColorChange 10s infinite alternate; /* Background color transition */
-        }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Default background */
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    animation: gradientTransition 15s ease infinite; /* Apply gradient animation */
+}
+@keyframes gradientTransition {
+    0% {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Start gradient */
+    }
+    50% {
+        background: linear-gradient(135deg, #6a11cb, #2575fc); /* Mid gradient */
+    }
+    100% {
+        background: linear-gradient(135deg, #ff7e5f, #feb47b); /* End gradient (same as start) */
+    }
+}
 
-        @keyframes backgroundColorChange {
-            0% { background: linear-gradient(135deg, #000, #40E0D0); }
-            100% { background: linear-gradient(135deg, #40E0D0, #000); }
-        }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 700px;
+    padding: 20px; /* Increased padding for spacing */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    width: 100%; /* Ensure container width is responsive */
+    max-height: 500px; /* Limit the height */
+    box-sizing: border-box; /* Include padding and border in element’s total width and height */
+    overflow: hidden; /* Hide overflow for nice scrolling */
+    position: relative; /* Relative positioning for absolute children */
+}
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 320px;
-            padding: 10px;
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
-            background: rgba(0, 0, 0, 0.8);
-            border-radius: 15px;
-        }
+.phone {
+    width: 240px; /* Or adjust if needed */
+    height: 400px;
+    border: 8px solid #222;
+    border-radius: 20px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px; /* Space between phone and description */
+}
 
-        .phone {
-            width: 100%;
-            max-width: 240px;
-            height: 400px;
-            border: 8px solid #222;
-            border-radius: 20px;
-            background: #000;
-            position: relative;
-            overflow: hidden;
-            margin-bottom: 10px;
-        }
+.screen {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        .screen {
-            width: 100%;
-            height: 70%;
-            position: relative;
-            overflow: hidden;
-            border-radius: 15px 15px 0 0;
-            background: #111; /* Ensures the area outside the image is a solid color */
-            display: flex;
-            align-items: center; /* Vertically center images */
-            justify-content: center; /* Horizontally center images */
-        }
+.transition-images {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
 
-        .transition-images {
-            display: flex;
-            width: 300%; /* Enough width for all images to sit horizontally */
-            height: 100%;
-            transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Smooth transition */
-        }
+.image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
 
-        .image {
-            width: 100%; /* Let the images be responsive */
-            height: auto; /* Maintain aspect ratio */
-            max-height: 100%; /* Prevent images from overflowing vertically */
-            object-fit: contain; /* Fit the images without covering the entire screen */
-            flex-shrink: 0;
-            opacity: 0.8;
-            transition: opacity 0.5s ease-in-out; /* Fade effect */
-        }
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 16px);
+}
 
-        .image:hover {
-            opacity: 1; /* Highlight image on hover */
-        }
+.button {
+    width: 36px;
+    height: 10px;
+    background: #fff;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.3s ease;
+}
 
-        .buttons {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px;
-            position: absolute;
-            bottom: 0;
-            width: calc(100% - 16px);
-        }
+.button:hover {
+    background: #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
-        .button {
-            width: 36px;
-            height: 10px;
-            background: #fff;
-            border-radius: 6px;
-            transition: background 0.3s, transform 0.3s ease;
-        }
+.home {
+    background: #ff4757;
+}
 
-        .button:hover {
-            background: #ccc;
-            transform: scale(1.1);
-            cursor: pointer;
-        }
+.menu {
+    background: #1e90ff;
+}
 
-        .home {
-            background: #ff4757; /* Bright red */
-        }
+.back {
+    background: #2ed573;
+}
 
-        .menu {
-            background: #1e90ff; /* Bright blue */
-        }
+.on-button {
+    width: 60px;
+    height: 30px;
+    background: #2ed573;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
 
-        .back {
-            background: #2ed573; /* Bright green */
-        }
+.on-button:hover {
+    transform: scale(1.1);
+}
 
-        .description {
-            margin-top: 5px;
-            max-width: 300px;
-            line-height: 1.4;
-            text-align: left;
-            animation: descriptionPop 3s ease-in-out infinite;
-        }
+.on-button span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
 
-        @keyframes descriptionPop {
-            0% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.05); opacity: 1; }
-            100% { transform: scale(1); opacity: 0.8; }
-        }
+.description {
+    width: 240px; /* Match phone width or adjust to 300px */
+    max-height: 400px; /* Match phone height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    text-align: left;
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+}
 
-        .description h1 {
-            font-size: 20px;
-            margin: 0;
-            color: #fff;
-            animation: fadeInUp 2s ease-in-out;
-            font-weight: 700;
-        }
+.description:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+}
 
-        .description p {
-            font-size: 14px;
-            color: #f1f1f1;
-            animation: fadeInUp 2s ease-in-out 0.5s;
-            animation-fill-mode: both;
-            margin-top: 5px;
-        }
+.description h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
 
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+.description p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
 
-        .side-text {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            font-size: 14px;
-            color: #f1f1f1;
-            max-height: 400px; /* Align with phone height */
-            line-height: 1.5;
-            animation: fadeInUp 3s ease-in-out;
-        }
+/* Custom scrollbar */
+.description::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.description::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5); /* Background of the scrollbar track */
+}
+
+.description::-webkit-scrollbar-thumb {
+    background: #1e90ff; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round scrollbar thumb */
+}
+
+.description::-webkit-scrollbar-thumb:hover {
+    background: #0d4e8c; /* Darker color on hover */
+}
+
+.side-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 14px;
+    color: #f1f1f1;
+    max-height: 400px;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
     </style>
 </head>
 <body>
-    <div class="side-text">Classic Vodafone Interface</div> <!-- Left side text -->
+    <div class="side-text">Retro VodaFone</div>
     
     <div class="container">
-        <div class="phone">
-            <div class="screen">
+        <div class="phone" id="phone">
+            <div class="screen" id="screen">
                 <div class="transition-images">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/222/original/vodafone-543.jpeg?1725532670" alt="Classic Vodafone Phone 1" class="image">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/221/original/Vodafone-541-This-model-is-the-previous-generation-of-touch-screen-mobile-phone-The.jpeg?1725532503" alt="Classic Vodafone Phone 2" class="image">
@@ -181,49 +230,61 @@
                 <div class="button back"></div>
             </div>
         </div>
-        <div class="description">
-            <h1>Reviving the Classic Vodafone Touchscreen</h1>
-            <p>Relive the nostalgia of the early 2000s with this modern revival of the classic Vodafone touchscreen phone. Enjoy a rotating display of iconic images that capture the essence of an era.</p>
-            <p>The phone interface is enhanced with dynamic transitions and responsive buttons that mimic the feel of the original device, making it a perfect blend of old and new.</p>
+        <div class="description" id="description">
+            <h1>My first phone: The Classic Vodafone Touchscreen</h1>
+            <p>Relive the nostalgia of the early 2000s with a modern revival of the classic Vodafone touchscreen phone.</p>
+            <p>This phone holds a special place in my heart, as it was a Christmas present from my mom for passing my grade at school. I’ll never forget the excitement of unwrapping it on Christmas Day, knowing it was my very first phone.</p>
+            <p>What made it even more memorable was that it wasnt just a phone. It was the first device I could use to listen to my favorite music and take pictures, capturing memories of that special time in my life.</p>
+            <p>The interface captures the essence of the early smartphone experience with sleek design, smooth transitions, and a touch of nostalgia.</p>
         </div>
+        
     </div>
 
-    <div class="side-text">Retro Phone Revival</div> <!-- Right side text -->
+    <div class="side-text">Retro VodaFone</div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const homeButton = document.querySelector('.home');
             const menuButton = document.querySelector('.menu');
             const backButton = document.querySelector('.back');
-            const screen = document.querySelector('.screen');
-            const description = document.querySelector('.description');
+            const screen = document.getElementById('screen');
+            const description = document.getElementById('description');
             let screenVisible = true;
 
             // Red button: Redirect to Vodafone pictures page
             homeButton.addEventListener('click', function() {
-                window.location.href = 'https://www.google.com/search?q=vodafone+touchscreen+phones&tbm=isch'; // Redirect to Google Images
+                window.location.href = 'https://www.google.com/search?q=vodafone+touchscreen+phones&tbm=isch';
             });
 
             // Blue button: Redirect to Vodafone Wikipedia page
             menuButton.addEventListener('click', function() {
-                window.location.href = 'https://en.wikipedia.org/wiki/Vodafone'; // Redirect to Wikipedia page
+                window.location.href = 'https://en.wikipedia.org/wiki/Vodafone';
             });
 
-            // Green button: Toggle screen visibility (hide/show the screen and description)
+            // Green button: Toggle screen visibility (back button)
             backButton.addEventListener('click', function() {
                 screenVisible = !screenVisible;
-                if (screenVisible) {
-                    screen.style.display = 'flex'; // Show screen
-                    description.style.display = 'block'; // Show description
-                } else {
-                    screen.style.display = 'none'; // Hide screen
-                    description.style.display = 'none'; // Hide description
-                }
+                toggleScreen();
             });
+
+            function toggleScreen() {
+                if (screenVisible) {
+                    screen.style.display = 'flex';
+                    description.classList.remove('hidden');
+                } else {
+                    screen.style.display = 'none';
+                    description.classList.add('hidden');
+                }
+            }
+
+            // Auto image slider
+            const imagesContainer = document.querySelector('.transition-images');
+            let currentIndex = 0;
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % 3;
+                imagesContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }, 3000);
         });
     </script>
 </body>
 </html>
-
-
-<!-- the code i gave you is correct the one  you updated has problems the images are not animation or moving the green button is on top the red theres no on button on the outside of the container -->
